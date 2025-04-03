@@ -1,0 +1,22 @@
+.nav-bar{
+    text-decoration:none;
+    padding: 10px;
+    background: black;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 300px) {
+    nav{
+        background-color: gray;
+        flex-direction: column;
+    }
+}
+
+.nav-bar{
+    margin: 5px 0px;
+}
